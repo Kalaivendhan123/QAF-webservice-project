@@ -1,0 +1,248 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login credentials",
+    "line": 3,
+    "description": "",
+    "id": "Login credentials",
+    "tags": [],
+    "uri": "QAS Bank/Login credentials",
+    "testSuiteName": "QAS Bank",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://qas.qmetry.com/bank/",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": true,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "Login credentials",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 3,
+        "name": "Login credentials",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://qas.qmetry.com/bank/",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": true,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://qas.qmetry.com/bank/",
+            "match": {
+              "location": "Login credentials/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3464000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 2,
+            "name": "Implicit Wait 2000",
+            "match": {
+              "location": "Login credentials/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2513000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "clear text.txtusername",
+            "match": {
+              "location": "Login credentials/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 618000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 4,
+            "name": "Implicit Wait 2000",
+            "match": {
+              "location": "Login credentials/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2519000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "sendKeys Bob into text.txtusername",
+            "match": {
+              "location": "Login credentials/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 697000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 6,
+            "name": "Implicit Wait 2000",
+            "match": {
+              "location": "Login credentials/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "clear password.txtpassword",
+            "match": {
+              "location": "Login credentials/61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 646000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 8,
+            "name": "Implicit Wait 2000",
+            "match": {
+              "location": "Login credentials/71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2518000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "sendKeys ****** into password.txtpassword",
+            "match": {
+              "location": "Login credentials/81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 760000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 10,
+            "name": "Implicit Wait 2000",
+            "match": {
+              "location": "Login credentials/91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2518000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 11,
+            "name": "click on button.btnlogin",
+            "match": {
+              "location": "Login credentials/101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 721000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 12,
+            "name": "Implicit Wait 2000",
+            "match": {
+              "location": "Login credentials/111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2514000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 13,
+            "name": "click on button.log.out",
+            "match": {
+              "location": "Login credentials/121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 679000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 14,
+            "name": "Implicit Wait 2000",
+            "match": {
+              "location": "Login credentials/131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2523000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

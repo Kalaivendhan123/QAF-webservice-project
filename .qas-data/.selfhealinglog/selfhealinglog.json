@@ -1,0 +1,14 @@
+{
+	"1685507960987": {
+		"date": "2023-05-31T04:39:20.971Z",
+		"testcase": "Amazon",
+		"command": "Click",
+		"status": "Failed",
+		"type": "xpath:idRelative",
+		"failedele": "xpath=//div[@id='search']/div/div/div/span/div/div[2]/div/div/div/div/div/div/div[2]/div/h2/a/span",
+		"newele": "xpath=//h2/a/span",
+		"rtype": "xpath:position",
+		"oldeArray": "",
+		"eArray": ""
+	}
+}

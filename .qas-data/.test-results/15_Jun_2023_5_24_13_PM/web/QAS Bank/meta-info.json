@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "author": "kalaivendhan.desingu",
+        "description": "",
+        "groups": [],
+        "lineNo": 0,
+        "name": "Login credentials",
+        "referece": "",
+        "resultFileName": "Login credentials",
+        "testSuiteName": "QAS Bank",
+        "sign": "",
+        "executedOn": "Local"
+      },
+      "dependsOn": [],
+      "startTime": 0,
+      "duration": 25882000000,
+      "result": "pass",
+      "passPer": 0
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Flipkart",
+    "line": 3,
+    "description": "",
+    "id": "Flipkart",
+    "tags": [],
+    "uri": "QAS Bank/Flipkart",
+    "testSuiteName": "QAS Bank",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://www.flipkart.com",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": true,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "Flipkart",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 3,
+        "name": "Flipkart",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://www.flipkart.com",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": true,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://www.flipkart.com",
+            "match": {
+              "location": "Flipkart/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6478000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "click on button..",
+            "match": {
+              "location": "Flipkart/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 737000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "click on div.mobiles",
+            "match": {
+              "location": "Flipkart/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on img.shop.now",
+            "match": {
+              "location": "Flipkart/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 861000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "click on div.vivot2x5gglimmerblack128gb",
+            "match": {
+              "location": "Flipkart/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 952000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "switchWindow 1",
+            "match": {
+              "location": "Flipkart/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 512000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "click on button.buynow",
+            "match": {
+              "location": "Flipkart/61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2191000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

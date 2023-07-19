@@ -1,0 +1,82 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://www.amazon.in",
+      "type": "TestStepPass",
+      "duration": 6211,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on link.mobiles",
+      "type": "TestStepPass",
+      "duration": 3859,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on span.cameras",
+      "type": "TestStepPass",
+      "duration": 3180,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on span.actioncameras",
+      "type": "TestStepPass",
+      "duration": 3751,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on i.a-icona-icon-checkbox",
+      "type": "TestStepPass",
+      "duration": 6179,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on span.sjcamsj4000dualscreen4k30fps16mpwifiactioncamera.170.ultrawideangle.2.0ltpslcd1.3dualscreen.30mwaterproofwithwaterproofcase.black",
+      "type": "TestStepPass",
+      "duration": 1222,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And switchWindow 1",
+      "type": "TestStepPass",
+      "duration": 522,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on submit.buy-now-button",
+      "type": "TestStepPass",
+      "duration": 7022,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear email.ap_email",
+      "type": "TestStepPass",
+      "duration": 657,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys 9597993066 into email.ap_email",
+      "type": "TestStepPass",
+      "duration": 741,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on submit.continue",
+      "type": "TestStepPass",
+      "duration": 2565,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

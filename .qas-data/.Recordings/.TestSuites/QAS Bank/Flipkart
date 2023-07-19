@@ -1,0 +1,352 @@
+{
+    "steps": [
+        {
+            "command": "Open",
+            "element": "",
+            "eArray": [],
+            "input": "https://www.flipkart.com",
+            "status": "Passed",
+            "elementKey": "",
+            "elementDesc": "",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "14",
+            "tsId": 2,
+            "testData": false,
+            "duration": 6478000000,
+            "executedOn": "2023-05-31T07:55:59.526Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "button..",
+            "eArray": [
+                [
+                    "xpath=//div/div/button",
+                    "xpath:position"
+                ],
+                [
+                    "css=button._2KpZ6l._2doB4z",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Back to top'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Flipkart.com'])[1]/following::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/preceding::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Get access to your Orders, Wishlist and Recommendations'])[1]/preceding::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//button[text()='✕']",
+                    "xpath:innerText"
+                ],
+                [
+                    "button..",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "button.✕",
+            "elementDesc": "Button ✕",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "14",
+            "tsId": 2,
+            "testData": false,
+            "duration": 737000000,
+            "executedOn": "2023-05-31T07:56:00.264Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "div.mobiles",
+            "eArray": [
+                [
+                    "xpath=//div[@id='container']/div/div[2]/div/div/div[2]/a/div[2]",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div[2]/a/div[2]",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Grocery'])[1]/following::div[4]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::div[13]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Fashion'])[1]/preceding::div[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Electronics'])[1]/preceding::div[9]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//div[text()='Mobiles']/ancestor::a",
+                    "xpath:innerText"
+                ],
+                [
+                    "div.mobiles",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "div.mobiles",
+            "elementDesc": "Text mobiles",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "14",
+            "tsId": 2,
+            "testData": false,
+            "duration": 740000000,
+            "executedOn": "2023-05-31T07:56:01.004Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "img.shop.now",
+            "eArray": [
+                [
+                    "xpath=//img[@alt='Shop Now']",
+                    "xpath:img"
+                ],
+                [
+                    "xpath=//div[@id='container']/div/div[3]/div[2]/div[2]/div/div/div/div/div/div/div/div/a/div/img",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a/div/img",
+                    "xpath:position"
+                ],
+                [
+                    "css=img._1aPR5_",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Clock Speed'])[1]/following::img[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Operating System Version Name'])[1]/following::img[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mobiles Price List'])[1]/preceding::img[38]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mobiles'])[2]/preceding::img[38]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "img.shop.now",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "img.shop now",
+            "elementDesc": "Image of Shop Now",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "14",
+            "tsId": 2,
+            "testData": false,
+            "duration": 861000000,
+            "executedOn": "2023-05-31T07:56:01.865Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "div.vivot2x5gglimmerblack128gb",
+            "eArray": [
+                [
+                    "xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div[2]/div/div",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a/div[2]/div/div",
+                    "xpath:position"
+                ],
+                [
+                    "css=div._4rR01T",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Add to Compare'])[1]/following::div[5]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Newest First'])[1]/following::div[16]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='&'])[1]/preceding::div[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Dimensity 6020 Processor'])[1]/preceding::div[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//div[text()='vivo T2x 5G (Glimmer Black, 128 GB)']/ancestor::a",
+                    "xpath:innerText"
+                ],
+                [
+                    "div.vivot2x5gglimmerblack128gb",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "div.vivot2x5gglimmerblack128gb",
+            "elementDesc": "Text vivot2x5g(glimmerblack,128gb)",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "14",
+            "tsId": 2,
+            "testData": false,
+            "duration": 952000000,
+            "executedOn": "2023-05-31T07:56:02.817Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Switch To Window",
+            "element": "",
+            "eArray": [],
+            "input": "1",
+            "status": "Passed",
+            "elementKey": "",
+            "elementDesc": "",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "14",
+            "tsId": 2,
+            "testData": false,
+            "duration": 512000000,
+            "executedOn": "2023-05-31T07:56:03.329Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "button.buynow",
+            "eArray": [
+                [
+                    "xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li[2]/form/button",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//form/button",
+                    "xpath:position"
+                ],
+                [
+                    "css=button._2KpZ6l._2U9uOA.ihZ75k._3AWRsL",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Offer Zone'])[1]/following::button[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sale Starts In'])[1]/preceding::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::button[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//button[text()='Buy Now']",
+                    "xpath:innerText"
+                ],
+                [
+                    "button.buynow",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "button.buynow",
+            "elementDesc": "Button buynow",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "14",
+            "tsId": 2,
+            "testData": false,
+            "duration": 2191000000,
+            "executedOn": "2023-05-31T07:56:05.520Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        }
+    ],
+    "type": "web",
+    "capabilities": {
+        "remoteUrl": "https://www.flipkart.com",
+        "type": "web",
+        "selectBrowser": "chrome",
+        "selectDevice": "",
+        "isRemote": false,
+        "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+        "isDebugMode": true,
+        "details": {
+            "deviceMetrics": {
+                "name": "",
+                "width": "",
+                "height": "",
+                "pixelRatio": "",
+                "userAgent": ""
+            }
+        }
+    },
+    "testDataExample": [],
+    "isTCValid": true,
+    "externalTestData": false,
+    "dbDetails": {},
+    "recordSessionType": "multiple",
+    "tags": [],
+    "description": "",
+    "shared": false,
+    "executionStatus": "Passed"
+}

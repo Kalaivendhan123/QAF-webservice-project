@@ -1,0 +1,82 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://www.amazon.in",
+      "type": "TestStepPass",
+      "duration": 7425,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Mobiles')]",
+      "type": "TestStepPass",
+      "duration": 3596,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//div[@id='nav-subnav']/a[6]/span",
+      "type": "TestStepPass",
+      "duration": 2973,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//div[@id='s-refinements']/div/ul/li[4]/span/a/span",
+      "type": "TestStepPass",
+      "duration": 3517,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//div[@id='s-refinements']/div[2]/ul/li[2]/span/a/div/label/i",
+      "type": "TestStepPass",
+      "duration": 10351,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//div[@id='search']/div/div/div/span/div/div[2]/div/div/div/div/div/div/div[2]/div/h2/a/span",
+      "type": "TestStepPass",
+      "duration": 1270,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And switchWindow 1",
+      "type": "TestStepPass",
+      "duration": 543,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on id=buy-now-button",
+      "type": "TestStepPass",
+      "duration": 9055,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear id=ap_email",
+      "type": "TestStepPass",
+      "duration": 648,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys 9597993066 into id=ap_email",
+      "type": "TestStepPass",
+      "duration": 710,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//span[@id='continue']/span/input",
+      "type": "TestStepPass",
+      "duration": 1807,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

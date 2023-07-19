@@ -1,0 +1,54 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://www.flipkart.com",
+      "type": "TestStepPass",
+      "duration": 6478,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on button..",
+      "type": "TestStepPass",
+      "duration": 737,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on div.mobiles",
+      "type": "TestStepPass",
+      "duration": 740,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on img.shop.now",
+      "type": "TestStepPass",
+      "duration": 861,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on div.vivot2x5gglimmerblack128gb",
+      "type": "TestStepPass",
+      "duration": 952,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And switchWindow 1",
+      "type": "TestStepPass",
+      "duration": 512,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on button.buynow",
+      "type": "TestStepPass",
+      "duration": 2191,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

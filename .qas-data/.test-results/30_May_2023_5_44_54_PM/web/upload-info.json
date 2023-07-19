@@ -1,0 +1,157 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login credentials",
+    "line": 9,
+    "description": "",
+    "id": "Login credentials",
+    "tags": [],
+    "uri": "QAS Bank/Login credentials",
+    "testSuiteName": "QAS Bank",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://qas.qmetry.com/bank/",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": true,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "Login credentials",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 9,
+        "name": "Login credentials",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://qas.qmetry.com/bank/",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": true,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://qas.qmetry.com/bank/",
+            "match": {
+              "location": "Login credentials/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "clear id=txtUsername",
+            "match": {
+              "location": "Login credentials/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "sendKeys Bob into id=txtUsername",
+            "match": {
+              "location": "Login credentials/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 650000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "clear id=txtPassword",
+            "match": {
+              "location": "Login credentials/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 612000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "sendKeys ****** into id=txtPassword",
+            "match": {
+              "location": "Login credentials/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "click on id=btnLogin",
+            "match": {
+              "location": "Login credentials/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 729000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "click on xpath=//input",
+            "match": {
+              "location": "Login credentials/61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 715000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

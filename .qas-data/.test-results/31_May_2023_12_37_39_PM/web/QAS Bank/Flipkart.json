@@ -1,0 +1,54 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://www.flipkart.com",
+      "type": "TestStepPass",
+      "duration": 7129,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//div/div/button",
+      "type": "TestStepPass",
+      "duration": 733,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//div[@id='container']/div/div[2]/div/div/div[2]/a/div[2]",
+      "type": "TestStepPass",
+      "duration": 711,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//img[@alt='Shop Now']",
+      "type": "TestStepPass",
+      "duration": 899,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div[2]/div/div",
+      "type": "TestStepPass",
+      "duration": 1038,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And switchWindow 1",
+      "type": "TestStepPass",
+      "duration": 527,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li[2]/form/button",
+      "type": "TestStepPass",
+      "duration": 1972,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

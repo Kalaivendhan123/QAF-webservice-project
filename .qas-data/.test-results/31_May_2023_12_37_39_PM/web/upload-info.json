@@ -1,0 +1,157 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Flipkart",
+    "line": 3,
+    "description": "",
+    "id": "Flipkart",
+    "tags": [],
+    "uri": "QAS Bank/Flipkart",
+    "testSuiteName": "QAS Bank",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://www.flipkart.com",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": true,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "Flipkart",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 3,
+        "name": "Flipkart",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://www.flipkart.com",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": true,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://www.flipkart.com",
+            "match": {
+              "location": "Flipkart/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "click on xpath=//div/div/button",
+            "match": {
+              "location": "Flipkart/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 733000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "click on xpath=//div[@id='container']/div/div[2]/div/div/div[2]/a/div[2]",
+            "match": {
+              "location": "Flipkart/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on xpath=//img[@alt='Shop Now']",
+            "match": {
+              "location": "Flipkart/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 899000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "click on xpath=//div[@id='container']/div/div[3]/div/div[2]/div[2]/div/div/div/a/div[2]/div/div",
+            "match": {
+              "location": "Flipkart/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1038000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "switchWindow 1",
+            "match": {
+              "location": "Flipkart/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 527000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "click on xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li[2]/form/button",
+            "match": {
+              "location": "Flipkart/61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1972000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

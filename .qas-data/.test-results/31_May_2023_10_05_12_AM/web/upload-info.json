@@ -1,0 +1,209 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Amazon",
+    "line": 3,
+    "description": "",
+    "id": "Amazon",
+    "tags": [],
+    "uri": "QAS Bank/Amazon",
+    "testSuiteName": "QAS Bank",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://www.amazon.in",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": true,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "Amazon",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 3,
+        "name": "Amazon",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://www.amazon.in",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": true,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://www.amazon.in",
+            "match": {
+              "location": "Amazon/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7425000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "click on xpath=//a[contains(text(),'Mobiles')]",
+            "match": {
+              "location": "Amazon/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3596000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "click on xpath=//div[@id='nav-subnav']/a[6]/span",
+            "match": {
+              "location": "Amazon/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2973000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on xpath=//div[@id='s-refinements']/div/ul/li[4]/span/a/span",
+            "match": {
+              "location": "Amazon/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3517000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "click on xpath=//div[@id='s-refinements']/div[2]/ul/li[2]/span/a/div/label/i",
+            "match": {
+              "location": "Amazon/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "click on xpath=//div[@id='search']/div/div/div/span/div/div[2]/div/div/div/div/div/div/div[2]/div/h2/a/span",
+            "match": {
+              "location": "Amazon/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "switchWindow 1",
+            "match": {
+              "location": "Amazon/61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 8,
+            "name": "click on id=buy-now-button",
+            "match": {
+              "location": "Amazon/71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9055000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "clear id=ap_email",
+            "match": {
+              "location": "Amazon/81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 10,
+            "name": "sendKeys 9597993066 into id=ap_email",
+            "match": {
+              "location": "Amazon/91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 710000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 11,
+            "name": "click on xpath=//span[@id='continue']/span/input",
+            "match": {
+              "location": "Amazon/101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1807000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

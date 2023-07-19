@@ -1,0 +1,209 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Amazon",
+    "line": 3,
+    "description": "",
+    "id": "Amazon",
+    "tags": [],
+    "uri": "QAS Bank/Amazon",
+    "testSuiteName": "QAS Bank",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://www.amazon.in",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": true,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "Amazon",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 3,
+        "name": "Amazon",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://www.amazon.in",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": true,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://www.amazon.in",
+            "match": {
+              "location": "Amazon/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5047000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "click on link.mobiles",
+            "match": {
+              "location": "Amazon/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "click on span.cameras",
+            "match": {
+              "location": "Amazon/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on span.actioncameras",
+            "match": {
+              "location": "Amazon/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4053000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "click on i.a-icona-icon-checkbox",
+            "match": {
+              "location": "Amazon/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6695000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "click on span.sjcamsj4000dualscreen4k30fps16mpwifiactioncamera.170.ultrawideangle.2.0ltpslcd1.3dualscreen.30mwaterproofwithwaterproofcase.black",
+            "match": {
+              "location": "Amazon/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1281000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "switchWindow 1",
+            "match": {
+              "location": "Amazon/61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 544000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 8,
+            "name": "click on submit.buy-now-button",
+            "match": {
+              "location": "Amazon/71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "clear email.ap_email",
+            "match": {
+              "location": "Amazon/81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 10,
+            "name": "sendKeys 9597993066 into email.ap_email",
+            "match": {
+              "location": "Amazon/91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 692000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 11,
+            "name": "click on submit.continue",
+            "match": {
+              "location": "Amazon/101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1853000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
